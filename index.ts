@@ -1,7 +1,5 @@
-function greeter(person: string): void {
-  console.log(`Hello ${person}!`);
+class Program {
+  public static Main(): void {
+    console.log("Hello World!");
+  }
 }
-
-const user: string = "Stuart";
-
-greeter(user);
